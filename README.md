@@ -12,12 +12,6 @@ https://docs.google.com/document/d/1N2Ne-edD7aRawdxYOvBqriVZDZ7mYYiBtoV1Pa0BQtg/
 This repository contains the complete pipeline for preparing spine MRI data and training nnU-Net v2 models for vertebral segmentation using **T1 + T2 MRI**.  
 It supports both **Odd–Even vertebra labeling** and **standard multi-class vertebra labeling**.
 
-The pipeline is designed to be:
-- Robust to orientation issues
-- Safe from silent mask misalignment
-- Laptop-friendly (2D first, optional 3D full resolution)
-- Easy to reproduce
-
 ---
 
 ## 1. Initial Raw Data Format
